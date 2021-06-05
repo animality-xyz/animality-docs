@@ -21,7 +21,7 @@ These are the several animal strings that can be used to send a request to the A
 https://api.animality.xyz/img/<animal>
 ```
 This endpoint allows you to request a random image URL for a specific animal. The data returned is a JSON object with a URL to the specified image.
-```
+```json
 {
   "link": "https://api.animality.xyz/img/dog/24.jpeg"
 }
@@ -33,7 +33,7 @@ This endpoint allows you to request a random image URL for a specific animal. Th
 https://api.animality.xyz/fact/<animal>
 ```
 This endpoint allows you to request a random fact for a specific animal. The data returned is a JSON object with the fact as a string.
-```
+```json
 {
   "fact": "Spaying or neutering your dog can help prevent certain types of cancer."
 }
@@ -53,7 +53,7 @@ const animal = 'cat';
 animality.getAsync(animal).then(console.log);
 ```
 This outputs the following object in the terminal:
-```js
+```json
 {
   name: 'cat',
   image: 'An image URL here',
@@ -67,7 +67,7 @@ const animals = ['cat', 'dog', 'panda'];
 animality.getAsync(animals).then(console.log);
 ```
 This outputs the following array of objects in the terminal:
-```js
+```json
 [
   {
     name: 'cat',
