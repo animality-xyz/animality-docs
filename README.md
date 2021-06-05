@@ -1,5 +1,5 @@
 # animality-docs
-This is the official API Documentation for animality.
+The official API Documentation for animality
 
 ## List of available animals
 These are the several animal strings that can be used to send a request to the API.
@@ -41,7 +41,7 @@ This endpoint allows you to request a random fact for a specific animal. The dat
 Here are some official wrappers for this API. If you can't find your programming language here, you can make your own.
 
 ## Node.js
-```js
+```bash
 $ npm install animality
 ```
 The node.js wrapper for this API is available for use in [Node Package Manager](https://www.npmjs.com/package/animality). It's use is pretty straight-forward.
@@ -85,7 +85,7 @@ This outputs the following array of objects in the terminal:
 ]
 ```
 ## Python
-```py
+```bash
 $ pip install animality-py
 ```
 This API has a wrapper for it in Python. You can install it through the [Python Package Index](https://www.npmjs.com/package/animality). Using it is quite simple.
