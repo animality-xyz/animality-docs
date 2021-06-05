@@ -105,7 +105,7 @@ async def run():
 
 get_event_loop().run_until_complete(run())
 ```
-This outputs the following text in the terminal.
+This outputs the following text in the terminal:
 ```js
 <Animal name="dog" image="..." fact="...">
 <Animal name="..." image="..." fact="...">
