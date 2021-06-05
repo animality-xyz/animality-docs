@@ -1,4 +1,4 @@
-# animality-docs
+# animality
 The official API Documentation for animality
 
 ## List of available animals
