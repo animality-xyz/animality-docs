@@ -53,11 +53,11 @@ const animal = 'cat';
 animality.getAsync(animal).then(console.log);
 ```
 This outputs the following object in the terminal:
-```json
+```object
 {
-  "name": "cat",
-  "image": "An image URL here",
-  "fact": "A fact here"
+  name: "cat",
+  image: "An image URL here",
+  fact: "A fact here"
 }
 ```
 Other than that, this package also allows you to request multiple animals at the same time.
@@ -67,22 +67,22 @@ const animals = ['cat', 'dog', 'panda'];
 animality.getAsync(animals).then(console.log);
 ```
 This outputs the following array of objects in the terminal:
-```json
+```object
 [
   {
-    "name": "cat",
-    "image": "An image URL here",
-    "fact": "A fact here"
+    name: "cat",
+    image: "An image URL here",
+    fact: "A fact here"
   },
   {
-    "name": "dog",
-    "image": "An image URL here",
-    "fact": "A fact here"
+    name: "dog",
+    image: "An image URL here",
+    fact: "A fact here"
   },
   {
-    "name": "panda",
-    "image": "An image URL here",
-    "fact": "A fact here"
+    name: "panda",
+    image: "An image URL here",
+    fact: "A fact here"
   }
 ]
 ```
