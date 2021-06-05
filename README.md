@@ -1,7 +1,7 @@
 # animality-docs
+This is the official API Documentation for animality.
 
 ## List of available animals
-
 These are the several animal strings that can be used to send a request to the API.
 
 * `cat`
