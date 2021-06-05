@@ -16,7 +16,6 @@ These are the several animal strings that can be used to send a request to the A
 * `bunny`
 
 ## Random image
-
 ```
 https://api.animality.xyz/img/<animal>
 ```
@@ -28,7 +27,6 @@ This endpoint allows you to request a random image URL for a specific animal. Th
 ```
 
 ## Random fact
-
 ```
 https://api.animality.xyz/fact/<animal>
 ```
@@ -55,9 +53,9 @@ animality.getAsync(animal).then(console.log);
 This outputs the following object in the terminal:
 ```json
 {
-  name: 'cat',
-  image: 'An image URL here',
-  fact: 'A fact here'
+  "name": "cat",
+  "image": "An image URL here",
+  "fact": "A fact here"
 }
 ```
 Other than that, this package also allows you to request multiple animals at the same time.
@@ -70,19 +68,19 @@ This outputs the following array of objects in the terminal:
 ```json
 [
   {
-    name: 'cat',
-    image: 'An image URL here',
-    fact: 'A fact here'
+    "name": "cat",
+    "image": "An image URL here",
+    "fact": "A fact here"
   },
   {
-    name: 'dog',
-    image: 'An image URL here',
-    fact: 'A fact here'
+    "name": "dog",
+    "image": "An image URL here",
+    "fact": "A fact here"
   },
   {
-    name: 'panda',
-    image: 'An image URL here',
-    fact: 'A fact here'
+    "name": "panda",
+    "image": "An image URL here",
+    "fact": "A fact here"
   }
 ]
 ```
