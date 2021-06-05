@@ -90,7 +90,7 @@ This outputs the following array of objects in the terminal:
 ```bash
 $ pip install animality-py
 ```
-This API has a wrapper for it in Python. You can install it through the [Python Package Index](https://www.npmjs.com/package/animality). Using it is quite simple.
+This API has a wrapper for it in Python. You can install it through the [Python Package Index](https://pypi.org/project/animality-py). Using it is quite simple.
 ```py
 import animality
 from asyncio import get_event_loop
