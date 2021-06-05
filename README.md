@@ -52,7 +52,7 @@ const animality = require('animality');
 const animal = 'cat';
 animality.getAsync(animal).then(console.log);
 ```
-This outputs the following object in the terminal.
+This outputs the following object in the terminal:
 ```js
 {
   name: 'cat',
@@ -66,7 +66,7 @@ const animality = require('animality');
 const animals = ['cat', 'dog', 'panda'];
 animality.getAsync(animals).then(console.log);
 ```
-This outputs the following array of objects in the terminal.
+This outputs the following array of objects in the terminal:
 ```js
 [
   {
