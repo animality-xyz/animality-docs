@@ -16,6 +16,11 @@ These are the several animal strings that can be used to send a request to the A
 * `whale` 
 * `kangaroo` 
 * `bunny`
+* `lion`
+* `bear`
+* `frog`
+* `duck`
+* `penguin`
 
 ## Random image
 ```
