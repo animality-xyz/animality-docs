@@ -1,5 +1,5 @@
 # animality-docs
-The official API Documentation for animality
+Official API Documentation for animality
 
 # API Documentation
 
