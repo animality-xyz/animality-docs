@@ -48,10 +48,14 @@ This endpoint allows you to request a random fact for a specific animal. The dat
 Here are some official wrappers for this API. If you can't find your programming language here, you can make your own.
 
 ## Node.js
+## Installation
 ```bash
 $ npm install animality
 ```
 The node.js wrapper for this API is available for use in [Node Package Manager](https://www.npmjs.com/package/animality). It's use is pretty straight-forward.
+
+## Example
+
 ```js
 const animality = require('animality');
 const animal = 'cat';
@@ -92,10 +96,14 @@ This outputs the following array of objects in the terminal:
 ]
 ```
 ## Python
+## Installation
 ```bash
 $ pip install animality-py
 ```
 This API has a wrapper for it in Python. You can install it through the [Python Package Index](https://pypi.org/project/animality-py). Using it is quite simple.
+
+## Example
+
 ```py
 import animality
 from asyncio import get_event_loop
