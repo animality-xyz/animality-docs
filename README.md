@@ -54,7 +54,7 @@ $ npm install animality
 ```
 The node.js wrapper for this API is available for use in [Node Package Manager](https://www.npmjs.com/package/animality). It's use is pretty straight-forward.
 
-## Example
+### Example
 
 ```js
 const animality = require('animality');
@@ -102,7 +102,7 @@ $ pip install animality-py
 ```
 This API has a wrapper for it in Python. You can install it through the [Python Package Index](https://pypi.org/project/animality-py). Using it is quite simple.
 
-## Example
+### Example
 
 ```py
 import animality
