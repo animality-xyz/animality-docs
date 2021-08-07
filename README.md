@@ -48,7 +48,7 @@ This endpoint allows you to request a random fact for a specific animal. The dat
 Here are some official wrappers for this API. If you can't find your programming language here, you can make your own.
 
 ## Node.js
-## Installation
+### Installation
 ```bash
 $ npm install animality
 ```
@@ -96,7 +96,7 @@ This outputs the following array of objects in the terminal:
 ]
 ```
 ## Python
-## Installation
+### Installation
 ```bash
 $ pip install animality-py
 ```
@@ -128,7 +128,7 @@ Required dependencies:
 - [`libcurl`](https://github.com/curl/curl) for sending HTTPS requests.
 - [`cJSON`](https://github.com/DaveGamble/cJSON) for parsing the JSON response.
 
-## Installation
+### Installation
 
 ```sh
 $ git clone https://github.com/animality-xyz/animality.h.git
@@ -138,7 +138,7 @@ $ gcc -c animality.c -lcurl -ljson -o animality.o
 # ...do stuff with object file
 ```
 
-## Example
+### Example
 
 The response from requesting to the library is this struct.
 ```c
