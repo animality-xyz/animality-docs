@@ -118,7 +118,7 @@ This outputs the following text in the terminal:
 ## C/C++
 Required dependencies:
 - [`libcurl`](https://github.com/curl/curl) for sending HTTPS requests.
-- [`cJSON`](https://github.com/DaveGamble/cJSON/) for parsing the JSON response.
+- [`cJSON`](https://github.com/DaveGamble/cJSON) for parsing the JSON response.
 
 ```sh
 $ git clone https://github.com/animality-xyz/animality.h.git
