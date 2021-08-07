@@ -22,7 +22,7 @@ These are the several animal strings that can be used to send a request to the A
 * `duck`
 * `penguin`
 
-## Random Image
+### Random Image
 ```
 https://api.animality.xyz/img/<animal>
 ```
@@ -33,7 +33,7 @@ This endpoint allows you to request a random image URL for a specific animal. Th
 }
 ```
 
-## Random Fact
+### Random Fact
 ```
 https://api.animality.xyz/fact/<animal>
 ```
