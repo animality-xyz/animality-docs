@@ -131,9 +131,7 @@ Required dependencies:
 ```sh
 $ git clone https://github.com/animality-xyz/animality.h.git
 $ cd animality.h/
-$ gcc -c animality.c -lcurl -ljson -o animality.o
-
-# ...do stuff with object file
+$ gcc -c animality.c -o animality.o
 ```
 
 ### Example
