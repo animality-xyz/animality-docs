@@ -167,6 +167,7 @@ int main() {
     return 0;
 }
 ```
+> For LINUX/POSIX users, add `-lpthread` to the compiler flags in order to compile the example below.
 If you want an asynchronous request, try this example:
 ```c
 #include "animality.h"
@@ -192,4 +193,3 @@ int main() {
     return 0;
 }
 ```
-> For LINUX/POSIX users, add `-lpthread` to the compiler flags in order to compile the example below.
