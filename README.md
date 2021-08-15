@@ -122,16 +122,11 @@ This outputs the following text in the terminal:
 <Animal name="..." image="..." fact="...">
 ```
 ## C/C++
-Required dependencies:
-- [`libcurl`](https://github.com/curl/curl) for sending HTTPS requests.
-- [`cJSON`](https://github.com/DaveGamble/cJSON) for parsing the JSON response.
-
 ### Installation
-
 ```sh
-$ git clone https://github.com/animality-xyz/animality.h.git
-$ cd animality.h/
+$ git clone https://github.com/animality-xyz/animality.h.git && cd animality.h/
 $ gcc -c animality.c -o animality.o
+$ ar rcs -o libanimal.a animality.o
 ```
 
 ### Example
@@ -145,9 +140,9 @@ typedef struct {
     char * fact;       // animal fact
 } animal_t;
 ```
-
+Here is a simple request example to the API. Please note that the following example is synchronous (aka blocking).
 ```c
-#include <animality.h>
+#include "animality.h"
 
 int main() {
     // create our animal struct
@@ -166,6 +161,32 @@ int main() {
     // global cleanup
     an_cleanup(NULL);
 
+    return 0;
+}
+```
+If you want an asynchronous request, try this example:
+> NOTE: for LINUX/POSIX users, add `-lpthread` to the compiler flags in order to compile the example below.
+```c
+#include "animality.h"
+
+// our request callback function!
+void callback(const animal_t * animal) {
+    printf("animal image url: %s\n", animal->image_url);
+}
+
+int main() {
+    // create separate thread for requesting to the API
+    const an_thread_t thr = an_get_async(AN_DOG, &callback);
+
+    // this will run while the thread is still requesting to the API
+    printf("Hello, World!\n");
+
+    // wait for thread to terminate before we exit the main function
+    an_thread_wait(thr);
+    
+    // global cleanup
+    an_cleanup(NULL);
+    
     return 0;
 }
 ```
