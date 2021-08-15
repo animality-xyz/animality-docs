@@ -122,6 +122,11 @@ This outputs the following text in the terminal:
 <Animal name="..." image="..." fact="...">
 ```
 ## C/C++
+
+Required dependencies:
+- [`libcurl`](https://github.com/curl/curl) for sending HTTPS requests.
+- `pthreads` for threads support (LINUX/POSIX devices only)
+
 ### Installation
 ```sh
 $ git clone https://github.com/animality-xyz/animality.h.git && cd animality.h/
@@ -165,7 +170,7 @@ int main() {
 }
 ```
 If you want an asynchronous request, try this example:
-> NOTE: for LINUX/POSIX users, add `-lpthread` to the compiler flags in order to compile the example below.
+> For LINUX/POSIX users, add `-lpthread` to the compiler flags in order to compile the example below.
 ```c
 #include "animality.h"
 
