@@ -107,12 +107,10 @@ import animality
 from asyncio import get_event_loop
 
 async def run():
-    animal = await animality.get_animal("dog")
-    print(animal)
+    animal = await animality.get("dog")
+    print(animal.name, animal.image, animal.fact)
     random = await animality.random()
-    print(random)
-
-    await animality.close()
+    print(random.name, random.image, random.fact)
 
 get_event_loop().run_until_complete(run())
 ```
