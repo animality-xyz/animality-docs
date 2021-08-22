@@ -122,8 +122,8 @@ This outputs the following text in the terminal:
 ## C/C++
 
 Required dependencies:
-- [`libcurl`](https://github.com/curl/curl) (LINUX only)
-- `pthreads` (LINUX only, might be already installed by default)
+- [`libcurl`](https://github.com/curl/curl) (Linux only)
+- `pthreads` (Linux only, might be already installed by default)
 - `wininet` (Windows only, might be already installed by default)
 
 ### Installation
