@@ -22,18 +22,18 @@ These are the 15 animal strings that can be used to send a request to the API.
 
 ### Random Image
 ```
-https://api.animality.xyz/img/<animal>
+[ Temporarily Removed ]
 ```
 This endpoint allows you to request a random image URL for a specific animal. The data returned is a JSON object with a URL to the specified image.
 ```json
 {
-  "link": "https://api.animality.xyz/img/dog/24.jpeg"
+  "link": "[ Temporarily Removed ]"
 }
 ```
 
 ### Random Fact
 ```
-https://api.animality.xyz/fact/<animal>
+[ Temporarily Removed ]
 ```
 This endpoint allows you to request a random fact for a specific animal. The data returned is a JSON object with the fact as a string.
 ```json
