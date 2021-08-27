@@ -5,7 +5,7 @@ The official API Documentation for animality
 These are the 15 animal strings that can be used to send a request to the API.
 
 * `cat`
-* `dog` 
+* `dog`
 * `bird` 
 * `panda` 
 * `redpanda` 
@@ -27,7 +27,7 @@ https://api.animality.xyz/img/<animal>
 This endpoint allows you to request a random image URL for a specific animal. The data returned is a JSON object with a URL to the specified image.
 ```json
 {
-  "link": "https://api.animality.xyz/img/dog/24.jpeg"
+  "link": "https://api.animality.xyz/images/dog/15.jpg"
 }
 ```
 
