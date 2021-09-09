@@ -50,7 +50,7 @@ Here are some official wrappers for this API. If you can't find your programming
 ```bash
 $ npm install animality
 ```
-The node.js wrapper for this API is available for use in [Node Package Manager](https://www.npmjs.com/package/animality). It's use is pretty straight-forward.
+The Node.js wrapper for this API is available for use in [Node Package Manager](https://www.npmjs.com/package/animality). It's use is pretty straight-forward.
 
 ### Example
 
