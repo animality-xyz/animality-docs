@@ -38,7 +38,7 @@ https://api.animality.xyz/fact/<animal>
 This endpoint allows you to request a random fact for a specific animal. The data returned is a JSON object with the fact as a string.
 ```json
 {
-  "fact": "Spaying or neutering your dog can help prevent certain types of cancer."
+  "fact": "Dogs are as smart as a two-year-old baby."
 }
 ```
 
