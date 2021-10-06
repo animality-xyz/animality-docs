@@ -27,7 +27,7 @@ https://api.animality.xyz/img/<animal>
 This endpoint allows you to request a random image URL for a specific animal. The data returned is a JSON object with a URL to the specified image.
 ```json
 {
-  "link": "https://api.animality.xyz/images/dog/15.jpg"
+  "link": "https://api.animality.xyz/images/dog/15.png"
 }
 ```
 
