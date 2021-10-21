@@ -3,7 +3,6 @@ The official API Documentation for animality
 
 # Usage
 These are the 15 animal strings that can be used to send a request to the API.
-
 * `cat`
 * `dog`
 * `bird` 
@@ -24,7 +23,9 @@ These are the 15 animal strings that can be used to send a request to the API.
 ```
 https://api.animality.xyz/img/<animal>
 ```
+
 This endpoint allows you to request a random image URL for a specific animal. The data returned is a JSON object with a URL to the specified image.
+
 ```json
 {
   "link": "https://api.animality.xyz/images/dog/15.png"
@@ -35,7 +36,9 @@ This endpoint allows you to request a random image URL for a specific animal. Th
 ```
 https://api.animality.xyz/fact/<animal>
 ```
+
 This endpoint allows you to request a random fact for a specific animal. The data returned is a JSON object with the fact as a string.
+
 ```json
 {
   "fact": "Dogs are as smart as a two-year-old baby."
@@ -50,10 +53,10 @@ Here are some official wrappers for this API. If you can't find your programming
 ```bash
 $ npm install animality
 ```
+
 The Node.js wrapper for this API is available for use in [Node Package Manager](https://www.npmjs.com/package/animality). It's use is pretty straight-forward.
 
 ### Example
-
 ```js
 const animality = require('animality');
 const animal = 'cat';
@@ -73,7 +76,9 @@ const animality = require('animality');
 const animals = ['cat', 'dog', 'panda'];
 animality.getAsync(animals).then(console.log);
 ```
+
 This outputs the following array of objects in the terminal:
+
 ```json
 [
   {
@@ -93,15 +98,16 @@ This outputs the following array of objects in the terminal:
   }
 ]
 ```
+
 ## Python
 ### Installation
 ```bash
 $ pip install animality-py
 ```
+
 This API has a wrapper for it in Python. You can install it through the [Python Package Index](https://pypi.org/project/animality-py). Using it is quite simple.
 
 ### Example
-
 ```py
 import animality
 from asyncio import get_event_loop
@@ -114,13 +120,15 @@ async def run():
 
 get_event_loop().run_until_complete(run())
 ```
+
 This outputs the following text in the terminal:
+
 ```js
 <Animal name="dog" image="..." fact="...">
 <Animal name="..." image="..." fact="...">
 ```
-## C/C++
 
+## C/C++
 Required dependencies:
 - [`libcurl`](https://github.com/curl/curl) (Linux only)
 - `pthreads` (Linux only, might be already installed by default)
@@ -133,6 +141,7 @@ $ git clone https://github.com/animality-xyz/animality.h.git && cd animality.h/
 $ gcc -c animality.c -o animality.o
 $ ar rcs -o libanimal.a animality.o
 ```
+
 #### Windows (Visual C++)
 ```bat
 $ git clone https://github.com/animality-xyz/animality.h.git && cd animality.h
@@ -140,7 +149,6 @@ $ cl /LD animality.c
 ```
 
 ### Example
-
 The response from requesting to the library is this struct.
 ```c
 typedef struct {
@@ -150,7 +158,9 @@ typedef struct {
     char * fact;       // animal fact
 } animal_t;
 ```
+
 Here is a simple request example to the API. Please note that the following example is synchronous (aka blocking).
+
 ```c
 #include "animality.h"
 
@@ -174,7 +184,9 @@ int main() {
     return 0;
 }
 ```
+
 If you want an asynchronous request, try this example:
+
 ```c
 #include "animality.h"
 
