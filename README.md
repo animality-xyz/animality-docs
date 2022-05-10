@@ -45,6 +45,8 @@ This endpoint allows you to request a random fact for a specific animal. The dat
 }
 ```
 
+*Did you know that you can purchase an [API Key](https://buy.stripe.com/8wMdQZcj5gPx0fubII) to get more requests?*
+
 # Official Wrappers
 Here are some official wrappers for this API. If you can't find your programming language here, you can make your own.
 
