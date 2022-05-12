@@ -2,16 +2,17 @@
 The official API Documentation for animality
 
 # Usage
-These are the 16 animal strings that can be used to send a request to the API:
+These are the 17 animal strings that can be used to send a request to the API:
 * `cat`
 * `dog`
-* `bird` 
-* `panda` 
-* `redpanda` 
-* `koala` 
-* `fox` 
-* `whale` 
-* `kangaroo` 
+* `bird`
+* `panda`
+* `redpanda`
+* `koala`
+* `fox`
+* `whale`
+* `dolphin`
+* `kangaroo`
 * `bunny`
 * `lion`
 * `bear`
