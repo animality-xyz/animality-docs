@@ -21,7 +21,7 @@ These are the 17 animal strings that can be used to send a request to the API:
 * `penguin`
 * `axolotl`
 
-### Random Image
+### [Random Image](https://api.animality.xyz/img/dog)
 ```
 https://api.animality.xyz/img/<animal>
 ```
@@ -34,7 +34,7 @@ This endpoint allows you to request a random image URL for a specific animal. Th
 }
 ```
 
-### Random Fact
+### [Random Fact](https://api.animality.xyz/fact/dog)
 ```
 https://api.animality.xyz/fact/<animal>
 ```
@@ -50,7 +50,7 @@ This endpoint allows you to request a random fact for a specific animal. The dat
 # Official Wrappers
 Here are some official wrappers for this API. If you can't find your programming language here, you can make your own.
 
-## Node.js
+## [Node.js](https://www.npmjs.com/package/animality)
 ### Installation
 ```bash
 $ npm install animality
@@ -105,7 +105,7 @@ This outputs the following array of objects in the terminal:
 ]
 ```
 
-## Python
+## [Python](https://pypi.org/project/animality-py)
 ### Installation
 ```bash
 $ pip install animality-py
@@ -134,7 +134,7 @@ This outputs the following text in the terminal:
 <Animal name="..." image="..." fact="...">
 ```
 
-## C/C++
+## [C/C++](https://github.com/animality-xyz/animality.h)
 Required dependencies:
 - [`libcurl`](https://github.com/curl/curl) (Linux only)
 - `pthreads` (Linux only, might be already installed by default)
