@@ -218,3 +218,9 @@ int main() {
     return 0;
 }
 ```
+
+## [Rust]()
+### Installation
+```bash
+$ echo Soon!
+```
