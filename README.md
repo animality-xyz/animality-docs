@@ -222,5 +222,5 @@ int main() {
 ## [Rust]()
 ### Installation
 ```bash
-$ echo Soon!
+$ echo Coming Soon
 ```
