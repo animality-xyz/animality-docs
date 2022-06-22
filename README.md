@@ -222,5 +222,5 @@ int main() {
 ## [Rust]()
 ### Installation
 ```bash
-$ echo Coming Soon
+$ echo :tada:
 ```
