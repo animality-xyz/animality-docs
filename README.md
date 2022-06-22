@@ -226,7 +226,7 @@ $ echo :tada:
 ```
 
 ### Example
-We use [Tokio](https://tokio.rs) to help with the asynchronous runtime for Rust.
+We use [`tokio`](https://tokio.rs) to help with the asynchronous runtime for Rust.
 
 ```rust
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
