@@ -231,11 +231,11 @@ We use [`tokio`](https://tokio.rs) to help with the asynchronous runtime for Rus
 ```rust
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
     let animality = Animality::new("API_KEY");
-    let result = animality.fetch_random_image(String::from("capybara")).await?;
-    let result2 = animality.fetch_fact(String::from("cat")).await?;
+    let image = animality.fetch_random_image(String::from("capybara")).await?;
+    let fact = animality.fetch_fact(String::from("capybara")).await?;
 
-    println!("{}", result.link);
-    println!("{}", result2.fact);
+    println!("{}", image.link);
+    println!("{}", fact.fact);
 
     Ok(());
 }
