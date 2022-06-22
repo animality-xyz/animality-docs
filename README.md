@@ -221,8 +221,10 @@ int main() {
 
 ## [Rust]()
 ### Installation
-```bash
-$ echo :tada:
+```toml
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+animality = { version = "0.1.0" }
 ```
 
 ### Example
