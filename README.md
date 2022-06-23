@@ -221,7 +221,7 @@ int main() {
 
 ## [Rust](https://crates.io/crates/animality)
 ### Installation
-Add this to your `Cargo.toml file's dependencies:`
+Add this to your `Cargo.toml`'s dependencies:
 ```toml
 animality = "1.0.0"
 ```
